@@ -4,34 +4,22 @@ import './Count.css'
 
 function Count() {
 
-    let [count, setCount] = useState(0)
-
-    const [incrementButton, setIncrementButton] = useState(false)
-    const [resetButton, setResetButton] = useState(true)
+    const [count, setCount] = useState(0)
 
     const increment = () => {
-        const newCount = count + 1
-        setCount(newCount)
-        if (newCount === 5) {
-            setIncrementButton(true)
-        }
-        if (resetButton) {
-            setResetButton(false)
-        }
+        setCount(count + 1)
     }
 
     const reset = () => {
         setCount(0)
-        setIncrementButton(false)
-        setResetButton(true)
     }
 
     return (
         <div className={"count"}>
             <h1 className={count === 5 ? 'red' : ''}>{count}</h1>
             <div className={"wrapButton"}>
-                <button disabled={incrementButton} onClick={increment}>inc</button>
-                <button disabled={resetButton} onClick={reset}>reset</button>
+                <button disabled={count >= 5} onClick={increment}>inc</button>
+                <button disabled={count === 0} onClick={reset}>reset</button>
             </div>
         </div>
     )
