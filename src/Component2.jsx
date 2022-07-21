@@ -8,6 +8,18 @@ function Component2() {
                 aperiam consequuntur eligendi, eos excepturi exercitationem iste nostrum numquam officiis pariatur
                 perferendis similique tempore ullam vel.
             </div>
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio iusto quas qui recusandae. Alias
+                aperiam consequuntur eligendi, eos excepturi exercitationem iste nostrum numquam officiis pariatur
+                perferendis similique tempore ullam vel.
+            </div>
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio iusto quas qui recusandae. Alias
+                aperiam consequuntur eligendi, eos excepturi exercitationem iste nostrum numquam officiis pariatur
+                perferendis similique tempore ullam vel.
+            </div>
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio iusto quas qui recusandae. Alias
+                aperiam consequuntur eligendi, eos excepturi exercitationem iste nostrum numquam officiis pariatur
+                perferendis similique tempore ullam vel.
+            </div>
         </>
     )
 }
