@@ -21,7 +21,6 @@ function NewComponent() {
             </div>
             <div>5</div>
             <div>5</div>
-            <div>5</div>
         </>
     )
 }
