@@ -22,9 +22,6 @@ function NewComponent() {
             <div>5</div>
             <div>5</div>
             <div>5</div>
-            <div>5</div>
-            <div>5</div>
-            <div>5</div>
         </>
     )
 }
