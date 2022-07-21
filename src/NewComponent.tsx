@@ -2,6 +2,7 @@ import React from "react";
 
 function NewComponent() {
     return (
+<<<<<<< HEAD
         <>
             <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur aut, autem consequuntur dolor
                 dolores
@@ -14,5 +15,10 @@ function NewComponent() {
                 voluptates!
             </div>
         </>
+=======
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur aut, autem consequuntur dolor dolores
+            ea earum et itaque libero maiores minima mollitia nemo nostrum odit omnis provident quos voluptas
+            voluptates!</div>
+>>>>>>> origin/main
     )
 }
