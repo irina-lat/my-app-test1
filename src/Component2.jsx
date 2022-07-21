@@ -1,6 +1,10 @@
-function Component2(){
+function Component2() {
     return (
-        <div>kkkk</div>
+        <>
+            <div>kkkk</div>
+            <div>kkkk</div>
+            <div>kkkk</div>
+        </>
     )
 }
 
